@@ -79,6 +79,7 @@ void led_bar_tsk(void* pvParams) {
 		uint8_t tmp;
 		get_LED_BAR(5, &tmp);
 
+
 		configASSERT(!set_LED_BAR(1, ~tmp));
 	}
 }
