@@ -75,6 +75,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\Milos Arbanas\Documents\GitHub\autoelektronika-primer1\FreeRTOS\portable\MSVC;C:\Users\Milos Arbanas\Documents\GitHub\autoelektronika-primer1\FreeRTOS\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Milos Arbanas\Documents\GitHub\autoelektronika-primer1;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -166,6 +168,12 @@
     <ClCompile Include="HW_access.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="main_application.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="BlackBox.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Debug\BlackBox.dll" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

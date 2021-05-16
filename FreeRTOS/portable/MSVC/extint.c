@@ -5,6 +5,7 @@
 #include "../../include/extint.h"
 #include "simcom.h"
 
+
 DWORD WINAPI prvExternalInterruptCatcher(LPVOID lpParameter)
 {
 	WSADATA wsaData;
