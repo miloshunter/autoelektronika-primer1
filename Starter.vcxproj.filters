@@ -13,10 +13,10 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\FreeRTOS">
+    <Filter Include="Resource Files\FreeRTOS">
       <UniqueIdentifier>{72f8875f-f3b2-4d0e-8f0e-ea61cf11e55e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\portable">
+    <Filter Include="Resource Files\portable">
       <UniqueIdentifier>{e2379c75-f55e-4992-a8c0-b025620bfa06}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -25,40 +25,40 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="FreeRTOS\timers.c">
-      <Filter>Source Files\FreeRTOS</Filter>
+      <Filter>Resource Files\FreeRTOS</Filter>
     </ClCompile>
     <ClCompile Include="FreeRTOS\croutine.c">
-      <Filter>Source Files\FreeRTOS</Filter>
+      <Filter>Resource Files\FreeRTOS</Filter>
     </ClCompile>
     <ClCompile Include="FreeRTOS\event_groups.c">
-      <Filter>Source Files\FreeRTOS</Filter>
+      <Filter>Resource Files\FreeRTOS</Filter>
     </ClCompile>
     <ClCompile Include="FreeRTOS\list.c">
-      <Filter>Source Files\FreeRTOS</Filter>
+      <Filter>Resource Files\FreeRTOS</Filter>
     </ClCompile>
     <ClCompile Include="FreeRTOS\queue.c">
-      <Filter>Source Files\FreeRTOS</Filter>
+      <Filter>Resource Files\FreeRTOS</Filter>
     </ClCompile>
     <ClCompile Include="FreeRTOS\stream_buffer.c">
-      <Filter>Source Files\FreeRTOS</Filter>
+      <Filter>Resource Files\FreeRTOS</Filter>
     </ClCompile>
     <ClCompile Include="FreeRTOS\tasks.c">
-      <Filter>Source Files\FreeRTOS</Filter>
+      <Filter>Resource Files\FreeRTOS</Filter>
     </ClCompile>
     <ClCompile Include="FreeRTOS\portable\MSVC\port.c">
-      <Filter>Source Files\portable</Filter>
+      <Filter>Resource Files\portable</Filter>
     </ClCompile>
     <ClCompile Include="FreeRTOS\portable\MemMang\heap_4.c">
-      <Filter>Source Files\portable</Filter>
+      <Filter>Resource Files\portable</Filter>
     </ClCompile>
     <ClCompile Include="FreeRTOS\portable\MSVC\extint.c">
-      <Filter>Source Files\portable</Filter>
-    </ClCompile>
-    <ClCompile Include="HW_access.c">
-      <Filter>Source Files</Filter>
+      <Filter>Resource Files\portable</Filter>
     </ClCompile>
     <ClCompile Include="main_application.c">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HW_access.c">
+      <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -78,7 +78,7 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="FreeRTOS\include\portable.h">
-      <Filter>Source Files\portable</Filter>
+      <Filter>Resource Files\portable</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
