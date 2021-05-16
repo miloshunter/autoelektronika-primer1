@@ -87,7 +87,7 @@
     </Library>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Debug\BlackBox.dll">
+    <None Include="BlackBox.dll">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

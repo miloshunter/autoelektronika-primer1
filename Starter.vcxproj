@@ -173,7 +173,7 @@
     <Library Include="BlackBox.lib" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Debug\BlackBox.dll" />
+    <None Include="BlackBox.dll" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
